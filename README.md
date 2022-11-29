@@ -12,8 +12,8 @@
 
 ### Links
 
-- Solution URL: [https://github.com/qumelashvili/tip-calculator]
-- Live Site URL: [https://qumelashvili.github.io/tip-calculator/]
+- Solution URL: [https://github.com/qumelashvili/tip-calculator-react]
+- Live Site URL: [https://qumelashvili.github.io/tip-calculator-react/]
 
 ## My process
 
