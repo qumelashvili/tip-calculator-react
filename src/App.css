@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+label{
+  color: #5E7A7D;
+}
+
+input{
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 19px;
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.bill-input{
+  background-image: url(../src/images/icon-dollar.svg);
+}
+.people-input{
+  background-image: url(../src/images/icon-person.svg);
+}
+.calculator-display p{
+  color: #FFFFFF;
+}
+.calculator-display span{
+  color: #7F9D9F;
+}
+.calculator-display .tip-value, .calculator-display .total-value{
+  color: #26C2AE;
+  font-size: 32px;
+}
+
+.active{
+  background-color: #26C2AE;
+  color: #00474B;
+}
+
+@media screen and (min-width: 1440px) {
+  .calculator-display .value{
+    font-size: 48px;
+  }
+  .select-option{
+    width: 379px;
+  }
+  .display{
+    width: 413px;
+    margin: 0px;
+  }
+  .tip-button input{
+    width: 117px;
+  }
+  .select-button, .tip-button input{
+    width: 117px;
+  }
+  .display button{
+    margin-top: 122px;
+  }
+  main{
+    max-width: 920px;
+    height: 481px;
+    border-radius: 25px;
+    box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+    margin: auto;
+    padding: 32px 32px 32px 48px;
+
+  }
+  .logo-area{
+    margin: 163px 0px 87px 0px;
+  }
+}
